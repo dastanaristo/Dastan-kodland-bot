@@ -16,9 +16,9 @@ async def on_message(message):
     if message.author == client.user:
         return
     if message.content.startswith('$hello'):
-        await message.channel.send("ello")
+        await message.channel.send("ello gday m8")
     elif message.content.startswith('$bye'):
-        await message.channel.send("aight goodbye")
+        await message.channel.send("aight goodbye m8")
     else:
         await message.channel.send(message.content)
 
